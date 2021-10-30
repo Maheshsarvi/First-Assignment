@@ -1,0 +1,119 @@
+nav
+{
+    display: inline-block;
+    background-color:grey;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 102;
+}
+body
+{
+    background-color:rgba(137, 43, 226, 0.452);
+}
+.para
+{
+    line-height: 25px;
+    text-indent: 50px;
+}
+
+.img1
+{
+    height: 70px;
+    width: 50px;
+}
+.anch1
+{
+    margin-left: 700px;
+    padding-left: 20px;
+   
+}
+.anch1 a
+{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.img2
+{
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 600px;
+    transition: transform 1s;
+}
+.img2 img
+{
+    transition: transform 1s;
+}
+.head1
+{
+    text-align: center;
+    position: relative;
+}
+.gal1 img
+{
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    transition: transform 1s;  
+}
+img:hover{
+    transform:scale(1.2);
+}
+.gal2 img
+{
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    transition: transform 1s;
+}
+.gal1
+{
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.gal2
+{
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.head3
+{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.foot div,h4
+{
+    display: inline-block;
+}
+.icon
+{
+    margin-left: 500px;
+    
+}
+.foot{
+    margin-top: 50px;
+    /* background-size: 100%; */
+    width: 100%;
+    position:static;
+    bottom: 0px;
+    background-color:gray;
+}
+.icon a i
+{
+    /* height: 400px; */
+    /* size: 600px; */
+    font-size: 30px;
+    margin-left: 20px;
+}
+.fab fa-facebook
+{
+   background-color: blue;
+}
+.fab fa-instagram
+{
+    background-color: red;
+}
